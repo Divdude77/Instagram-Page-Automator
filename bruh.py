@@ -5,7 +5,6 @@ import praw
 import urllib.request
 from instabot import Bot
 from PIL import Image
-from datetime import datetime
 
 subreddit = "memes"
 redditor = ""
@@ -15,8 +14,8 @@ posted = 0
 post_limit = 2
 clientid = "bIrkuHmRWfmg1g"
 clientsecret = "QrgQHUG5yhbsIVa2HJDqlCrE2_OsAg"
-username = "kustardmemes"
-password = "breadbutter69"
+username = "ENTER YOUR USERNAME HERE"      # Enter your username here
+password = "ENTER YOUR PASSWORD HERE"      # Eter your password here
 memeskip = 3
 post_cooldown = 10800
 
