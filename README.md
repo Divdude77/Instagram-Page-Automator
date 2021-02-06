@@ -1,5 +1,5 @@
 # Instagram-Memepage-Automator
-Automate your instagram meme page using this program! This script takes memes from reddit after every specified time interval and automatically posts it to your instagram meme page! It also credited the redditor who made the meme.
+Automate your instagram meme page using this program! This script takes memes from reddit after every specified time interval and automatically posts it to your instagram meme page! It also credits the redditor who made the meme.
 
 ## BEFORE RUNNING:
 This program uses the reddit API wrapper for python (PRAW), so make sure you have the PRAW module installed. Look under the PRAW setup heading for more. 
