@@ -47,5 +47,7 @@ post_cooldown is used to specify how long you want to wait before posting a new 
 memeskip is used to skip the first two memes from r/memes as they are announcements.
 
 # NOTE:
+This bot is completely safe as the instagram account details are stored locally on your device.
+
 It is better to keep the program running, as submitted_memes list is temporary, and becomes empty everytime the program is stopped. Re-running the program without waiting may cause meme repetition. If you want to re-run the program, you should wait atleast 3 to 4 hours since you stopped it. I hope to prevent this in the future by implementing a .json database support.
                  
