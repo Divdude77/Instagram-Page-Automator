@@ -9,13 +9,9 @@ Also, you will need to have the modules: os, urllib.request, shutil, and PIL, wh
 # PRAW SETUP:
 First of all, install PRAW by typing this into your command line interface:  pip install praw
 After installing, you will need to create a reddit app which will allow this API to connect to reddit.
-For this, you can use the app I made, or create your own. For creating your own, you need to have a reddit account. 
+For this, you need to have a reddit account. 
 
-Using mine:
-
-If you don't want to create your own, you can use mine. Don't change anything in the program, as the credentials given are of my reddit app.
-
-Creating your own:
+Creating a reddit app:
 
 On the old reddit website (old.reddit.com), login and then go to Preferences (top right) -> Apps (in the bar on top) -> Create Another App... (scroll down).
 Then, name it anything, and for redirect uri, type: http://reddit.com/ , and click create app.
