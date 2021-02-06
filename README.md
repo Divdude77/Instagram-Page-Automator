@@ -31,12 +31,20 @@ Thats all the setup required for PRAW!
 
 # VARIABLE USES:
 subreddit is the name of subreddit to browsed. It is set to "memes" (r/memes) by default. It switches to r/dankmemes after the post cooldown.
+
 redditor is the name of the person who made the meme. It is updated everytime a meme is selected.
+
 file_type is used to check whether the meme is a jpg or png. If its a png, it will be converted to jpg. Any other format will be skipped, as it can't be posted.
+
 submitted_memes is a list which stores the IDs of already posted memes. This is to prevent repetition of memes.
+
 submitted_memes is a list which stores the IDs of already posted memes. This is to prevent repetition of memes.
+
 post_limit is used to specify how many memes you want to post every interval. Its set to two by default.
+
 post_cooldown is used to specify how long you want to wait before posting a new meme (in seconds). Its set to three hours by default.
+
+memeskip is used to skip the first two memes from r/memes as they are announcements.
 
 # NOTE:
 It is better to keep the program running, as submitted_memes list is temporary, and becomes empty everytime the program is stopped. Re-running the program without waiting may cause meme repetition. If you want to re-run the program, you should wait atleast 3 to 4 hours since you stopped it. I hope to prevent this in the future by implementing a .json database support.
