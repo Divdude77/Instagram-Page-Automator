@@ -1,6 +1,6 @@
 '''
 ###################################
-#  INSTAGRAM MEME PAGE AUTOMATER  #
+#  INSTAGRAM MEME PAGE AUTOMATOR  #
 #          BY Divdude77           #
 ###################################
 '''
