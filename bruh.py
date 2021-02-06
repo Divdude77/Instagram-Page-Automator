@@ -1,3 +1,13 @@
+'''
+###################################
+#  INSTAGRAM MEME PAGE AUTOMATER  #
+#          BY Divdude77           #
+###################################
+'''
+#############################################
+# READ readme.md BEFORE RUNNING THIS SCRIPT #
+#############################################
+
 from time import sleep
 import os
 import shutil
