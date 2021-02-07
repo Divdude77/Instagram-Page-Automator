@@ -11,7 +11,7 @@ First of all, install PRAW by typing this into your command line interface:  pip
 After installing, you will need to create a reddit app which will allow this API to connect to reddit.
 For this, you need to have a reddit account. 
 
-Creating a reddit app:
+### Creating a reddit app:
 
 On the old reddit website (old.reddit.com), login and then go to Preferences (top right) -> Apps (in the bar on top) -> Create Another App... (scroll down).
 Then, name it anything, and for redirect uri, type: http://reddit.com/ , and click create app.
