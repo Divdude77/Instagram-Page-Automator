@@ -86,9 +86,15 @@ while True:
     submitted_memes.append(submission.id)
     caption = submission.title + "\n \nPosted in r/" + subreddit + " by " + redditor
 
-    # Post Meme on Insta
+   # Post Meme on Insta
 
-    bot.upload_photo("meme.jpg", caption=caption)
+    try:
+        bot.upload_photo("meme.jpg", caption=caption)
+    except OSError as error:
+        pass
+
+    # Delete Posted Meme
+    
     try:
         os.remove("meme.jpg.REMOVE_ME")
         posted += 1
