@@ -28,19 +28,19 @@ Thats all the setup required for InstaBot!
 ## VARIABLE USES:
 * subreddits is a list containing the subreddits to be browsed. It switches to the next subreddit every post. The current subreddit value is stored in a variable called subreddit. You can add more subreddits to this list.
 
-* redditor is the name of the person who made the meme. It is updated everytime a meme is selected.
+* *redditor* is the name of the person who made the meme. It is updated everytime a meme is selected.
 
-* file_type is used to check whether the meme is a jpg or png. If its a png, it will be converted to jpg. Any other format will be skipped, as it can't be posted.
+* *file_type* is used to check whether the meme is a jpg or png. If its a png, it will be converted to jpg. Any other format will be skipped, as it can't be posted.
 
-* submitted_memes is a list which stores the IDs of already posted memes. This is to prevent repetition of memes.
+* *submitted_memes* is a list which stores the IDs of already posted memes. This is to prevent repetition of memes.
 
-* submitted_memes is a list which stores the IDs of already posted memes. This is to prevent repetition of memes.
+* *submitted_memes* is a list which stores the IDs of already posted memes. This is to prevent repetition of memes.
 
-* post_limit is used to specify how many memes you want to post every interval. Its set to two by default.
+* *post_limit* is used to specify how many memes you want to post every interval. Its set to two by default.
 
-* post_cooldown is used to specify how long you want to wait before posting a new meme (in seconds). Its set to three hours by default.
+* *post_cooldown* is used to specify how long you want to wait before posting a new meme (in seconds). Its set to three hours by default.
 
-* memeskip is used to skip the first meme as they are announcements in most subreddits. This variable can be set to 0 to prevent skipping.
+* *memeskip* is used to skip the first meme as they are announcements in most subreddits. This variable can be set to 0 to prevent skipping.
 
 ## NOTE:
 This bot is completely safe as the instagram account details are stored locally on your device.
