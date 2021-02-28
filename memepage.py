@@ -16,7 +16,8 @@ import urllib.request
 from instabot import Bot
 from PIL import Image
 
-subreddit = "memes"
+subreddits = ["memes", "dankmemes"]
+subreddit = subreddits[0]
 redditor = ""
 file_type = ""
 submitted_memes = []
@@ -110,9 +111,7 @@ while True:
 
     # Switch the Subreddit
 
-    if subreddit == "memes":
-        subreddit = "dankmemes"
-        memeskip = 0
-    elif subreddit == "dankmemes":
-        subreddit = "memes"
-        memeskip = 3
+        if subreddits.index(subreddit) == len(subreddits) - 1:
+        subreddit = subreddits[0]
+    else:
+        subreddit = subreddits[subreddits.index(subreddit)+1]
