@@ -111,7 +111,7 @@ while True:
 
     # Switch the Subreddit
 
-        if subreddits.index(subreddit) == len(subreddits) - 1:
+    if subreddits.index(subreddit) == len(subreddits) - 1:
         subreddit = subreddits[0]
     else:
         subreddit = subreddits[subreddits.index(subreddit)+1]
