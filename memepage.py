@@ -27,7 +27,7 @@ clientid = "ENTER YOUR CLIENT ID HERE"     # Enter your client ID here
 clientsecret = "ENTER YOUR CLIENT SECRET HERE"  # Enter your client secret here
 username = "ENTER YOUR USERNAME HERE"      # Enter your username here
 password = "ENTER YOUR PASSWORD HERE"      # Eter your password here
-memeskip = 3
+memeskip = 1
 post_cooldown = 10800
 
 
