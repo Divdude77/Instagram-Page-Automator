@@ -26,7 +26,7 @@ Once installed, open the python script and change the username and password vari
 Thats all the setup required for InstaBot!
 
 ## VARIABLE USES:
-subreddit is the name of subreddit to browsed. It is set to "memes" (r/memes) by default. It switches to r/dankmemes after the post cooldown.
+subreddits is a list containing the subreddits to be browsed. It switches to the next subreddit every post. The current subreddit value is stored in a variable called subreddit
 
 redditor is the name of the person who made the meme. It is updated everytime a meme is selected.
 
@@ -40,7 +40,7 @@ post_limit is used to specify how many memes you want to post every interval. It
 
 post_cooldown is used to specify how long you want to wait before posting a new meme (in seconds). Its set to three hours by default.
 
-memeskip is used to skip the first two memes from r/memes as they are announcements.
+memeskip is used to skip the first meme as they are announcements in most subreddits. This variable can be set to 0 to prevent skipping.
 
 ## NOTE:
 This bot is completely safe as the instagram account details are stored locally on your device.
