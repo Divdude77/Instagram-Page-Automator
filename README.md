@@ -26,7 +26,7 @@ Once installed, open the python script and change the username and password vari
 Thats all the setup required for InstaBot!
 
 ## VARIABLE USES:
-subreddits is a list containing the subreddits to be browsed. It switches to the next subreddit every post. The current subreddit value is stored in a variable called subreddit
+subreddits is a list containing the subreddits to be browsed. It switches to the next subreddit every post. The current subreddit value is stored in a variable called subreddit. You can add more subreddits to this list.
 
 redditor is the name of the person who made the meme. It is updated everytime a meme is selected.
 
