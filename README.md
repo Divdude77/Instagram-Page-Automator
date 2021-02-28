@@ -7,8 +7,7 @@ It also uses InstaBot, which is a custom instagram API, so make sure you have th
 Also, you will need to have the modules: os, urllib.request, shutil, and PIL, which usually come installed with python.
 
 ## PRAW SETUP:
-First of all, install PRAW by typing this into your command line interface:  
-``pip install praw``
+First of all, install PRAW by typing this into your command line interface:  ``pip install praw``
 After installing, you will need to create a reddit app which will allow this API to connect to reddit.
 For this, you need to have a reddit account. 
 
@@ -21,8 +20,7 @@ Now, the weird characters right under your app name is client ID, and the weird 
 Thats all the setup required for PRAW!
 
 ## INSTABOT SETUP:
-First of all, install InstaBot by typing this into your command line interface: 
-``pip install instabot``
+First of all, install InstaBot by typing this into your command line interface: ``pip install instabot``
 Once installed, open the python script and change the username and password variables (line 17 and 18) to the username and password of your instagram meme account respectively.
 
 Thats all the setup required for InstaBot!
