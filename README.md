@@ -23,7 +23,7 @@ Thats all the setup required for PRAW!
 First of all, install InstaBot by typing this into your command line interface: pip install instabot
 Once installed, open the python script and change the username and password variables (line 17 and 18) to the username and password of your instagram meme account respectively.
 
-Thats all the setup required for PRAW!
+Thats all the setup required for InstaBot!
 
 ## VARIABLE USES:
 subreddit is the name of subreddit to browsed. It is set to "memes" (r/memes) by default. It switches to r/dankmemes after the post cooldown.
