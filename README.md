@@ -4,7 +4,7 @@ Automate your instagram meme page using this program! This script takes memes fr
 ## BEFORE RUNNING:
 This program uses the reddit API wrapper for python (PRAW), so make sure you have the PRAW module installed. Look under the PRAW setup heading for more. 
 It also uses InstaBot, which is a custom instagram API, so make sure you have that installed as well. Look under the InstaBot setup heading for more.
-Also, you will need to have the modules: os, urllib.request, shutil, and PIL, which usually come installed with python.
+Also, you will need to have the modules: os, urllib.request, shutil, and PIL, which usually come installed with python. With the latest commit, all posted meme records will be saved in a .csv file on your computer.
 
 ## PRAW SETUP:
 First of all, install PRAW by typing this into your command line interface:  ``pip install praw``
@@ -25,16 +25,15 @@ Once installed, open the python script and change the username and password vari
 
 Thats all the setup required for InstaBot!
 
+## .CSV FILE
+Download the included .csv file and keep it in the same directory as the script, or create a new one with the name *posted.csv* with atleast one sample record as seen in the posted.csv file included.
+
 ## VARIABLE USES:
 * *subreddits* is a list containing the subreddits to be browsed. It switches to the next subreddit every post. The current subreddit value is stored in a variable called subreddit. You can add more subreddits to this list.
 
 * *redditor* is the name of the person who made the meme. It is updated everytime a meme is selected.
 
 * *file_type* is used to check whether the meme is a jpg or png. If its a png, it will be converted to jpg. Any other format will be skipped, as it can't be posted.
-
-* *submitted_memes* is a list which stores the IDs of already posted memes. This is to prevent repetition of memes.
-
-* *submitted_memes* is a list which stores the IDs of already posted memes. This is to prevent repetition of memes.
 
 * *post_limit* is used to specify how many memes you want to post every interval. Its set to two by default.
 
@@ -45,5 +44,5 @@ Thats all the setup required for InstaBot!
 ## NOTE:
 This bot is completely safe as the instagram account details are stored locally on your device.
 
-It is better to keep the program running, as submitted_memes list is temporary, and becomes empty everytime the program is stopped. Re-running the program without waiting may cause meme repetition. If you want to re-run the program, you should wait atleast 3 to 4 hours since you stopped it. I hope to prevent this in the future by implementing a .json database support.
+
                  
