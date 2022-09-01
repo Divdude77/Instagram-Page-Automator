@@ -63,6 +63,8 @@ def daysdiff(day):
     elif d1[0] == d2[0]:
         if d1[1]<d2[1]:
             return ((30-d1[2]) + d2[2] + 30 * (d2[1]-d1[1]-1))
+    else:
+        return 365  # No need to check if years are different
         
 while True:
 
