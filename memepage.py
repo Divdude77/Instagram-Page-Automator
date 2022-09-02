@@ -73,7 +73,8 @@ while True:
     f = open("posted.csv","r")
     submitted_memes = []
     for i in csv.reader(f):
-        submitted_memes.append(i[0])
+        if i:
+            submitted_memes.append(i[0])
     f.close()
 
     # Getting Meme from Reddit
