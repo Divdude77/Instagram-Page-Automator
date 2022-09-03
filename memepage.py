@@ -152,7 +152,7 @@ while True:
 
     if posted == post_limit:
         print("Post cooldown...")
-        sleep(10800)
+        sleep(post_cooldown)
         posted = 0
 
     # Switch the Subreddit
