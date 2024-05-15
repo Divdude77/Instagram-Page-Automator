@@ -1,4 +1,6 @@
 # Instagram-Page-Automator
+## $\textcolor{red}{\textsf{DEPRECATED: This project is no longer functional due to changes in Instagram's API.}}$
+
 Automate your instagram meme page using this program! This script takes memes from reddit after every specified time interval and automatically posts it to your instagram meme page! It also credits the redditor who made the meme. You can also customize it to any other subreddit you'd like!
 
 ## BEFORE RUNNING:
